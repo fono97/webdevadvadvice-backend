@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions":{
+    "cloud_name": "ground-service-international",
+    "api_key": "987693839248319",
+    "api_secret": "o0Bt8xE9loSUNllw3L8_smGzXfY"
+  }
+}
