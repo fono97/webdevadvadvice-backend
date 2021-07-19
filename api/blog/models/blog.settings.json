@@ -22,7 +22,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "quote": {
       "type": "string",
@@ -63,6 +64,15 @@
     "featured": {
       "type": "boolean",
       "required": true
+    },
+    "recap": {
+      "type": "string",
+      "required": true
+    },
+    "sommaire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link-section.sommaire"
     }
   }
 }

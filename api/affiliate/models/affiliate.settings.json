@@ -29,7 +29,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "featured": {
       "type": "boolean",
@@ -49,6 +50,15 @@
       "type": "component",
       "repeatable": true,
       "component": "single-product.affiliate-product"
+    },
+    "sommaire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link-section.sommaire"
+    },
+    "recap": {
+      "type": "string",
+      "required": true
     }
   }
 }
