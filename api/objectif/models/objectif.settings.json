@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "objectifs",
+  "info": {
+    "name": "objectif"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

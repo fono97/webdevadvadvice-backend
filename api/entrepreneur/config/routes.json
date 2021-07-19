@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/entrepreneurs",
+      "handler": "entrepreneur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/entrepreneurs/count",
+      "handler": "entrepreneur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/entrepreneurs/:id",
+      "handler": "entrepreneur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/entrepreneurs",
+      "handler": "entrepreneur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/entrepreneurs/:id",
+      "handler": "entrepreneur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/entrepreneurs/:id",
+      "handler": "entrepreneur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_description_video_videos",
+  "info": {
+    "name": "video",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "typeOfProject": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "nameOfTheProject": {
+      "type": "string",
+      "required": true
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "videoDescription": {
+      "type": "text",
+      "required": true
+    },
+    "linkGithub": {
+      "type": "string",
+      "required": true
+    },
+    "linkSandbox": {
+      "type": "string",
+      "required": true
+    },
+    "previousButton": {
+      "type": "string",
+      "required": true
+    },
+    "nextButton": {
+      "type": "string",
+      "required": true
+    },
+    "prevBtnNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "nextBtnNumber": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_description_body_bodies",
+  "info": {
+    "name": "body",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "subtitleImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "textImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    }
+  }
+}

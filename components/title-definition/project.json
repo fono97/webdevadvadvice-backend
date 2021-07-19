@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_title_definition_projects",
+  "info": {
+    "name": "project",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    }
+  }
+}

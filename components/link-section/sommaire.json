@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_link_section_sommaires",
+  "info": {
+    "name": "sommaire",
+    "icon": "arrow-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uniqueId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

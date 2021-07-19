@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/objectifs",
+      "handler": "objectif.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/objectifs/count",
+      "handler": "objectif.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/objectifs/:id",
+      "handler": "objectif.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/objectifs",
+      "handler": "objectif.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/objectifs/:id",
+      "handler": "objectif.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/objectifs/:id",
+      "handler": "objectif.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

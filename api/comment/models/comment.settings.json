@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comment_s",
+  "info": {
+    "name": "comment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "comment": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "titleImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "quote": {
+      "type": "string",
+      "required": true
+    },
+    "quoteAuthor": {
+      "type": "string",
+      "required": true
+    },
+    "introDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    },
+    "bodyDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description-body.body"
+    },
+    "conclusionDesc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    },
+    "quickTips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subtitle.subtitle-project"
+    },
+    "introductionDescription": {
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "featured": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

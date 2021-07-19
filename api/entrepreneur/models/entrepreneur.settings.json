@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entrepreneurs",
+  "info": {
+    "name": "entrepreneur",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titleVideo": {
+      "type": "string",
+      "required": true
+    },
+    "titleAuthor": {
+      "type": "string",
+      "required": true
+    },
+    "title1": {
+      "type": "string",
+      "required": false
+    },
+    "title2": {
+      "type": "string",
+      "required": false
+    },
+    "course": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "linkProduct": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

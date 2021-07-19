@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_description_introductions",
+  "info": {
+    "name": "introduction",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

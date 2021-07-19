@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_text_links_tutorial_intros",
+  "info": {
+    "name": "TutorialIntro",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

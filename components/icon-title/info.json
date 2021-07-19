@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_icon_title_infos",
+  "info": {
+    "name": "info",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

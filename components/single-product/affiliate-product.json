@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_single_product_affiliate_products",
+  "info": {
+    "name": "affiliateProduct",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "productLink": {
+      "type": "text",
+      "required": true
+    },
+    "affiliateLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
