@@ -20,7 +20,11 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
