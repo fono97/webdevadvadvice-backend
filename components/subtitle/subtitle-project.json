@@ -25,6 +25,9 @@
     },
     "link": {
       "type": "string"
+    },
+    "textLink": {
+      "type": "string"
     }
   }
 }
