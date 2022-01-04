@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_single_product_affiliate_product_affiliates",
+  "info": {
+    "name": "productAffiliate",
+    "icon": "chevron-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "overall": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "foundation": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-product.affiliate-product"
+    },
+    "jobs": {
+      "type": "integer"
+    },
+    "quality": {
+      "type": "integer"
+    },
+    "fun": {
+      "type": "integer"
+    }
+  }
+}

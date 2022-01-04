@@ -28,7 +28,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "desc": {
       "type": "text",
@@ -100,6 +101,9 @@
       "type": "string"
     },
     "category3": {
+      "type": "string"
+    },
+    "category4": {
       "type": "string"
     }
   }

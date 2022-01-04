@@ -10,55 +10,16 @@
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
-    "typeOfProduct": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "typeOfProduct",
-      "required": true
-    },
-    "productImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "featured": {
-      "type": "boolean",
-      "default": false,
-      "required": true
-    },
-    "productName": {
-      "type": "string",
-      "required": true
-    },
-    "slugProduct": {
-      "type": "uid",
-      "targetField": "productName",
-      "required": true
-    },
-    "product": {
+    "productAffiliate": {
       "type": "component",
       "repeatable": true,
-      "component": "single-product.affiliate-product"
-    },
-    "sommaire": {
-      "type": "component",
-      "repeatable": true,
-      "component": "link-section.sommaire"
-    },
-    "recap": {
-      "type": "string",
-      "required": true
+      "component": "single-product-affiliate.product-affiliate"
     }
   }
 }

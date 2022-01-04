@@ -1,6 +1,5 @@
 
 module.exports = ({ env }) => {
-  console.log("i am a real dev")
     if(env('NODE_ENV') === "development" ) {
     return {
       
@@ -21,7 +20,6 @@ module.exports = ({ env }) => {
 
 }
 else {
-  console.log("i am not  a real dev")
 return {
   
   defaultConnection: 'default',

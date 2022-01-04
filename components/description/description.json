@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_description_descriptions",
+  "info": {
+    "name": "description",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

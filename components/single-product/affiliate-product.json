@@ -7,11 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "productLink": {
-      "type": "text",
-      "required": true
-    },
-    "affiliateLink": {
+    "productDescription": {
       "type": "string",
       "required": true
     }
