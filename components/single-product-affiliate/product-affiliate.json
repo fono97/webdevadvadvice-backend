@@ -10,9 +10,6 @@
     "quantity": {
       "type": "integer"
     },
-    "overall": {
-      "type": "string"
-    },
     "cost": {
       "type": "integer"
     },
@@ -38,6 +35,21 @@
     },
     "fun": {
       "type": "integer"
+    },
+    "overall": {
+      "type": "integer"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
