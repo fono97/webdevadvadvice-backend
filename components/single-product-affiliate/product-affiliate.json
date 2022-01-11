@@ -16,7 +16,7 @@
     "foundation": {
       "type": "integer"
     },
-    "title": {
+    "name": {
       "type": "string"
     },
     "link": {
@@ -50,6 +50,14 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "linkDescription": {
+      "type": "string",
+      "required": true
     }
   }
 }

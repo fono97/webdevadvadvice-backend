@@ -41,6 +41,13 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "productOverall": {
+      "type": "string"
     }
   }
 }
