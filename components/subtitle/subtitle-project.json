@@ -28,6 +28,9 @@
     },
     "textLink": {
       "type": "string"
+    },
+    "desc1": {
+      "type": "string"
     }
   }
 }

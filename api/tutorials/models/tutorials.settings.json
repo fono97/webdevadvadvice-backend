@@ -105,6 +105,12 @@
     },
     "category4": {
       "type": "string"
+    },
+    "category5": {
+      "type": "string"
+    },
+    "category6": {
+      "type": "string"
     }
   }
 }
