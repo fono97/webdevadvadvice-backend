@@ -25,9 +25,9 @@
     },
     "logoName": {
       "type": "string",
-      "required": true
+      "required": false
     },
-    "img": {
+    "userImg": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -36,9 +36,10 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false,
+      "pluginOptions": {}
     },
-    "company": {
+    "logo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -47,11 +48,19 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false,
+      "pluginOptions": {}
     },
     "featured": {
       "type": "boolean",
       "default": false,
+      "required": false
+    },
+    "userImgName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
       "required": true
     }
   }

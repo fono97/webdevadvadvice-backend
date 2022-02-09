@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emails",
+  "info": {
+    "name": "email",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subscribe": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
