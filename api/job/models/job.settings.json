@@ -14,11 +14,11 @@
   "attributes": {
     "company": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "salary": {
       "type": "biginteger"
@@ -31,21 +31,6 @@
     },
     "zipCode": {
       "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "engineering",
-        "sales",
-        "marketing",
-        "design",
-        "customerSupport"
-      ]
-    },
-    "position": {
-      "type": "component",
-      "repeatable": true,
-      "component": "single-product.affiliate-product"
     },
     "logo": {
       "model": "file",
@@ -62,6 +47,54 @@
     "url": {
       "type": "string",
       "required": false
+    },
+    "engineering": {
+      "type": "boolean",
+      "default": false
+    },
+    "marketing": {
+      "type": "boolean",
+      "default": false
+    },
+    "sales": {
+      "type": "boolean",
+      "default": false
+    },
+    "remote": {
+      "type": "boolean"
+    },
+    "design": {
+      "type": "boolean"
+    },
+    "customerSupport": {
+      "type": "boolean",
+      "default": false
+    },
+    "minSalary": {
+      "type": "biginteger"
+    },
+    "maxSalary": {
+      "type": "biginteger"
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "FullTime",
+        "PartTime",
+        "Contract"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "junior": {
+      "type": "boolean"
+    },
+    "midLevel": {
+      "type": "boolean"
+    },
+    "senior": {
+      "type": "boolean"
     }
   }
 }
