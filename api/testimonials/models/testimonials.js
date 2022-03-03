@@ -5,4 +5,12 @@
  * to customize this model
  */
 
-module.exports = {};
+module.exports = {
+    async create(ctx) {
+        // some logic here
+        const response = await super.create(ctx);
+        // some more logic
+      
+        return response;
+      }
+};
