@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/testimonials",
-      "handler": "testimonials.find",
+      "handler": "testimonial.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/testimonials/count",
-      "handler": "testimonials.count",
+      "handler": "testimonial.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/testimonials/:id",
-      "handler": "testimonials.findOne",
+      "handler": "testimonial.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/testimonials",
-      "handler": "testimonials.create",
+      "handler": "testimonial.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/testimonials/:id",
-      "handler": "testimonials.update",
+      "handler": "testimonial.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/testimonials/:id",
-      "handler": "testimonials.delete",
+      "handler": "testimonial.delete",
       "config": {
         "policies": []
       }

@@ -2,37 +2,33 @@
   "kind": "collectionType",
   "collectionName": "testimonials",
   "info": {
-    "name": "testimonials",
-    "description": ""
+    "name": "testimonial"
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
     },
     "description": {
-      "type": "text",
-      "required": true
-    },
-    "logoName": {
-      "type": "string",
-      "required": false
+      "type": "text"
     },
     "userImg": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
@@ -43,28 +39,13 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "featured": {
-      "type": "boolean",
-      "default": false,
-      "required": false
-    },
-    "userImgName": {
-      "type": "string"
-    },
-    "email": {
-      "type": "string",
-      "required": true
-    },
-    "suggestion": {
-      "type": "text"
     }
   }
 }
