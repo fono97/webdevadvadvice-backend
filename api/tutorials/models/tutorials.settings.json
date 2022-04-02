@@ -111,6 +111,21 @@
     },
     "category6": {
       "type": "string"
+    },
+    "stacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-word.product"
+    },
+    "singleCategoryTutorial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tutorial-category.single-category-tutorial"
+    },
+    "tutorial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tutorial-category-single.tutorial"
     }
   }
 }

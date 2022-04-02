@@ -11,9 +11,23 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
     "comment": {
-      "type": "text",
-      "required": true
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
     }
   }
 }

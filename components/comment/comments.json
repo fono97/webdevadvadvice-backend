@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_comment_comments",
+  "info": {
+    "name": "comments",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "richtext"
+    }
+  }
+}

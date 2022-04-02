@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "testimonials",
   "info": {
-    "name": "testimonial"
+    "name": "testimonial",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,9 +20,6 @@
     },
     "email": {
       "type": "email"
-    },
-    "description": {
-      "type": "text"
     },
     "userImg": {
       "model": "file",
@@ -46,6 +44,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

@@ -1,26 +1,25 @@
 {
-  "collectionName": "components_descriptionbody_tutorialbodies",
+  "collectionName": "components_tutorial_category_single_category_tutorials",
   "info": {
-    "name": "tutorialbody",
-    "icon": "asterisk",
+    "name": "singleCategoryTutorial",
+    "icon": "angle-left",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": false
+      "type": "string"
     },
     "description": {
+      "type": "richtext"
+    },
+    "stacks": {
       "type": "component",
       "repeatable": true,
-      "component": "text-links.tutorial-intro"
+      "component": "single-word.product"
     },
-    "code": {
-      "type": "text"
-    },
-    "src": {
-      "type": "string"
+    "date": {
+      "type": "date"
     },
     "image": {
       "model": "file",

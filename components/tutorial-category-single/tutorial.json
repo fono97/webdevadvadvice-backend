@@ -1,0 +1,82 @@
+{
+  "collectionName": "components_tutorial_category_single_tutorials",
+  "info": {
+    "name": "tutorial",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "date": {
+      "type": "date"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "min": {
+      "type": "string"
+    },
+    "category1": {
+      "type": "string"
+    },
+    "category2": {
+      "type": "string"
+    },
+    "category3": {
+      "type": "string"
+    },
+    "category4": {
+      "type": "string"
+    },
+    "category5": {
+      "type": "string"
+    },
+    "sommaire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link-section.sommaire"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category6": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-links.tutorial-intro"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "conclusion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-links.tutorial-intro"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "body-tutorials.body"
+    }
+  }
+}

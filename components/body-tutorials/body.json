@@ -1,20 +1,19 @@
 {
-  "collectionName": "components_descriptionbody_tutorialbodies",
+  "collectionName": "components_body_tutorials_bodies",
   "info": {
-    "name": "tutorialbody",
-    "icon": "asterisk",
+    "name": "body",
+    "icon": "atom",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": false
-    },
     "description": {
       "type": "component",
       "repeatable": true,
       "component": "text-links.tutorial-intro"
+    },
+    "title": {
+      "type": "string"
     },
     "code": {
       "type": "text"
