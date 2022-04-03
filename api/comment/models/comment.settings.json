@@ -28,6 +28,9 @@
     },
     "uniqueId": {
       "type": "string"
+    },
+    "parentId": {
+      "type": "integer"
     }
   }
 }
