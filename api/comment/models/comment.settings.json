@@ -36,7 +36,11 @@
       "type": "integer",
       "default": 0
     },
-    "global": {
+    "Postlike": {
+      "type": "integer",
+      "default": 0
+    },
+    "Postunlike": {
       "type": "integer",
       "default": 0
     }
