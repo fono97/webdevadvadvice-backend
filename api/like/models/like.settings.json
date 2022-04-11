@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "likes",
   "info": {
-    "name": "Like"
+    "name": "Like",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,6 +21,12 @@
     "PostLike": {
       "type": "integer",
       "default": 0
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
