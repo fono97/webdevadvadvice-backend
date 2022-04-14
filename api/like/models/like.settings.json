@@ -27,6 +27,9 @@
     },
     "image": {
       "type": "string"
+    },
+    "category": {
+      "type": "string"
     }
   }
 }

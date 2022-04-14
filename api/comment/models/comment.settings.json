@@ -43,6 +43,9 @@
     "Postunlike": {
       "type": "integer",
       "default": 0
+    },
+    "category": {
+      "type": "string"
     }
   }
 }
