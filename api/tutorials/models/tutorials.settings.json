@@ -69,48 +69,9 @@
       "type": "string",
       "required": false
     },
-    "body": {
-      "type": "component",
-      "repeatable": true,
-      "component": "descriptionbody.tutorialbody"
-    },
-    "introduction": {
-      "type": "component",
-      "repeatable": true,
-      "component": "text-links.tutorial-intro"
-    },
-    "sommaire": {
-      "type": "component",
-      "repeatable": true,
-      "component": "link-section.sommaire"
-    },
     "recap": {
       "type": "string",
       "required": true
-    },
-    "conclusion": {
-      "type": "component",
-      "repeatable": true,
-      "component": "text-links.tutorial-intro"
-    },
-    "category1": {
-      "type": "string",
-      "required": false
-    },
-    "category2": {
-      "type": "string"
-    },
-    "category3": {
-      "type": "string"
-    },
-    "category4": {
-      "type": "string"
-    },
-    "category5": {
-      "type": "string"
-    },
-    "category6": {
-      "type": "string"
     },
     "stacks": {
       "type": "component",
