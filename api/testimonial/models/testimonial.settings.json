@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "username": {
       "type": "string"
     },
     "title": {
@@ -20,18 +20,6 @@
     },
     "email": {
       "type": "email"
-    },
-    "userImg": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
     },
     "logo": {
       "model": "file",
@@ -45,8 +33,23 @@
       "required": false,
       "pluginOptions": {}
     },
+    "userImg": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "logoName": {
+      "type": "string"
+    },
     "description": {
-      "type": "richtext"
+      "type": "text"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "rating": {
+      "type": "integer"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interviews",
+  "info": {
+    "name": "interview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

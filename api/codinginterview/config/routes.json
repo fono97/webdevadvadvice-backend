@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/codinginterviews",
+      "handler": "codinginterview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/codinginterviews/count",
+      "handler": "codinginterview.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/codinginterviews/:id",
+      "handler": "codinginterview.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/codinginterviews",
+      "handler": "codinginterview.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/codinginterviews/:id",
+      "handler": "codinginterview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/codinginterviews/:id",
+      "handler": "codinginterview.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

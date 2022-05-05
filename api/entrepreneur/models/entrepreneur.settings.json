@@ -44,6 +44,25 @@
     "featured": {
       "type": "boolean",
       "default": false
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titleVideo"
+    },
+    "alt": {
+      "type": "string"
     }
   }
 }

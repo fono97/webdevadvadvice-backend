@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "codinginterviews",
+  "info": {
+    "name": "codinginterview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tutorial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tutorial-category-single.tutorial"
+    }
+  }
+}
